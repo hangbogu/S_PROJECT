@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/hangbo/SENIOR_PROJECT/audio-capture.cpp
+aws/core/utils/memory/stl/AWSVector.h
+-
+aws/core/utils/threading/Semaphore.h
+-
+aws/transcribestreaming/model/AudioStream.h
+-
+csignal
+-
+cstdio
+-
+portaudio.h
+-
+iostream
+-
+fstream
+-
+string
+-
+

@@ -1,0 +1,564 @@
+[INFO] 2019-11-10 03:50:06.995 Aws_Init_Cleanup [140432208975680] Initiate AWS SDK for C++ with Version:1.7.222
+[INFO] 2019-11-10 03:50:06.996 CurlHttpClient [140432208975680] Initializing Curl library with version: 7.67.0, ssl version: OpenSSL/1.0.2g
+[TRACE] 2019-11-10 03:50:07.027 FileSystemUtils [140432208975680] Checking HOME for the home directory.
+[DEBUG] 2019-11-10 03:50:07.027 FileSystemUtils [140432208975680] Environment value for variable HOME is /home/hangbo
+[DEBUG] 2019-11-10 03:50:07.027 FileSystemUtils [140432208975680] Home directory is missing the final / appending one to normalize
+[DEBUG] 2019-11-10 03:50:07.027 FileSystemUtils [140432208975680] Final Home Directory is /home/hangbo/
+[INFO] 2019-11-10 03:50:07.027 Aws::Config::AWSConfigFileProfileConfigLoader [140432208975680] Initializing config loader against fileName /home/hangbo/.aws/config and using profilePrefix = 1
+[DEBUG] 2019-11-10 03:50:07.031 Aws::Config::ConfigFileProfileFSM [140432208975680] found profile default
+[DEBUG] 2019-11-10 03:50:07.031 Aws::Config::ConfigFileProfileFSM [140432208975680] found region us-west-1
+[INFO] 2019-11-10 03:50:07.032 Aws::Config::AWSProfileConfigLoader [140432208975680] Successfully reloaded configuration.
+[TRACE] 2019-11-10 03:50:07.032 Aws::Config::AWSProfileConfigLoader [140432208975680] reloaded config at 2019-11-10T03:50:07Z
+[TRACE] 2019-11-10 03:50:07.032 FileSystemUtils [140432208975680] Checking HOME for the home directory.
+[DEBUG] 2019-11-10 03:50:07.032 FileSystemUtils [140432208975680] Environment value for variable HOME is /home/hangbo
+[DEBUG] 2019-11-10 03:50:07.032 FileSystemUtils [140432208975680] Home directory is missing the final / appending one to normalize
+[DEBUG] 2019-11-10 03:50:07.032 FileSystemUtils [140432208975680] Final Home Directory is /home/hangbo/
+[INFO] 2019-11-10 03:50:07.032 Aws::Config::AWSConfigFileProfileConfigLoader [140432208975680] Initializing config loader against fileName /home/hangbo/.aws/credentials and using profilePrefix = 0
+[TRACE] 2019-11-10 03:50:07.032 FileSystemUtils [140432208975680] Checking HOME for the home directory.
+[DEBUG] 2019-11-10 03:50:07.032 FileSystemUtils [140432208975680] Environment value for variable HOME is /home/hangbo
+[DEBUG] 2019-11-10 03:50:07.032 FileSystemUtils [140432208975680] Home directory is missing the final / appending one to normalize
+[DEBUG] 2019-11-10 03:50:07.032 FileSystemUtils [140432208975680] Final Home Directory is /home/hangbo/
+[TRACE] 2019-11-10 03:50:07.032 FileSystemUtils [140432208975680] Checking HOME for the home directory.
+[DEBUG] 2019-11-10 03:50:07.032 FileSystemUtils [140432208975680] Environment value for variable HOME is /home/hangbo
+[DEBUG] 2019-11-10 03:50:07.032 FileSystemUtils [140432208975680] Home directory is missing the final / appending one to normalize
+[DEBUG] 2019-11-10 03:50:07.032 FileSystemUtils [140432208975680] Final Home Directory is /home/hangbo/
+[INFO] 2019-11-10 03:50:07.032 ProfileConfigFileAWSCredentialsProvider [140432208975680] Setting provider to read credentials from /home/hangbo/.aws/credentials for credentials file and /home/hangbo/.aws/config for the config file , for use with profile default
+[TRACE] 2019-11-10 03:50:07.032 FileSystemUtils [140432208975680] Checking HOME for the home directory.
+[DEBUG] 2019-11-10 03:50:07.032 FileSystemUtils [140432208975680] Environment value for variable HOME is /home/hangbo
+[DEBUG] 2019-11-10 03:50:07.032 FileSystemUtils [140432208975680] Home directory is missing the final / appending one to normalize
+[DEBUG] 2019-11-10 03:50:07.032 FileSystemUtils [140432208975680] Final Home Directory is /home/hangbo/
+[INFO] 2019-11-10 03:50:07.032 Aws::Config::AWSConfigFileProfileConfigLoader [140432208975680] Initializing config loader against fileName /home/hangbo/.aws/config and using profilePrefix = 1
+[DEBUG] 2019-11-10 03:50:07.032 Aws::Config::ConfigFileProfileFSM [140432208975680] found profile default
+[DEBUG] 2019-11-10 03:50:07.032 Aws::Config::ConfigFileProfileFSM [140432208975680] found region us-west-1
+[INFO] 2019-11-10 03:50:07.032 Aws::Config::AWSProfileConfigLoader [140432208975680] Successfully reloaded configuration.
+[TRACE] 2019-11-10 03:50:07.032 Aws::Config::AWSProfileConfigLoader [140432208975680] reloaded config at 2019-11-10T03:50:07Z
+[WARN] 2019-11-10 03:50:07.032 STSAssumeRoleWithWebIdentityCredentialsProvider [140432208975680] Token file must be specified to use STS AssumeRole web identity creds provider.
+[DEBUG] 2019-11-10 03:50:07.032 DefaultAWSCredentialsProviderChain [140432208975680] The environment variable value AWS_CONTAINER_CREDENTIALS_RELATIVE_URI is 
+[DEBUG] 2019-11-10 03:50:07.032 DefaultAWSCredentialsProviderChain [140432208975680] The environment variable value AWS_CONTAINER_CREDENTIALS_FULL_URI is 
+[DEBUG] 2019-11-10 03:50:07.032 DefaultAWSCredentialsProviderChain [140432208975680] The environment variable value AWS_EC2_METADATA_DISABLED is 
+[INFO] 2019-11-10 03:50:07.032 EC2MetadataClient [140432208975680] Creating AWSHttpResourceClient with max connections2 and scheme http
+[INFO] 2019-11-10 03:50:07.032 CurlHandleContainer [140432208975680] Initializing CurlHandleContainer with size 2
+[INFO] 2019-11-10 03:50:07.032 InstanceProfileCredentialsProvider [140432208975680] Creating Instance with default EC2MetadataClient and refresh rate 300000
+[INFO] 2019-11-10 03:50:07.032 DefaultAWSCredentialsProviderChain [140432208975680] Added EC2 metadata service credentials provider to the provider chain.
+[DEBUG] 2019-11-10 03:50:07.037 Aws::Config::ConfigFileProfileFSM [140432208975680] found profile default
+[DEBUG] 2019-11-10 03:50:07.037 Aws::Config::ConfigFileProfileFSM [140432208975680] found access key AKIAVS6TSDUXERCNJM5T
+[INFO] 2019-11-10 03:50:07.037 Aws::Config::AWSProfileConfigLoader [140432208975680] Successfully reloaded configuration.
+[TRACE] 2019-11-10 03:50:07.037 Aws::Config::AWSProfileConfigLoader [140432208975680] reloaded config at 2019-11-10T03:50:07Z
+[INFO] 2019-11-10 03:50:07.037 CurlHandleContainer [140432208975680] Initializing CurlHandleContainer with size 25
+[DEBUG] 2019-11-10 03:50:07.038 AWSAuthEventStreamV4Signer [140432162760448] Canonical Header String: content-type:application/vnd.amazon.eventstream
+host:transcribestreaming.us-east-1.amazonaws.com
+x-amz-api-version:2017-10-26
+x-amz-content-sha256:STREAMING-AWS4-HMAC-SHA256-EVENTS
+x-amz-date:20191110T035007Z
+x-amzn-transcribe-language-code:en-US
+x-amzn-transcribe-media-encoding:pcm
+x-amzn-transcribe-sample-rate:16000
+
+[DEBUG] 2019-11-10 03:50:07.038 AWSAuthEventStreamV4Signer [140432162760448] Signed Headers value:content-type;host;x-amz-api-version;x-amz-content-sha256;x-amz-date;x-amzn-transcribe-language-code;x-amzn-transcribe-media-encoding;x-amzn-transcribe-sample-rate
+[DEBUG] 2019-11-10 03:50:07.038 AWSAuthEventStreamV4Signer [140432162760448] Canonical Request String: POST
+/stream-transcription
+
+content-type:application/vnd.amazon.eventstream
+host:transcribestreaming.us-east-1.amazonaws.com
+x-amz-api-version:2017-10-26
+x-amz-content-sha256:STREAMING-AWS4-HMAC-SHA256-EVENTS
+x-amz-date:20191110T035007Z
+x-amzn-transcribe-language-code:en-US
+x-amzn-transcribe-media-encoding:pcm
+x-amzn-transcribe-sample-rate:16000
+
+content-type;host;x-amz-api-version;x-amz-content-sha256;x-amz-date;x-amzn-transcribe-language-code;x-amzn-transcribe-media-encoding;x-amzn-transcribe-sample-rate
+STREAMING-AWS4-HMAC-SHA256-EVENTS
+[DEBUG] 2019-11-10 03:50:07.038 AWSAuthEventStreamV4Signer [140432162760448] Final String to sign: AWS4-HMAC-SHA256
+20191110T035007Z
+20191110/us-east-1/transcribe/aws4_request
+53db69df84263f609332308bdf9677f1e625e5e6417954789e9118f8f5e1a54b
+[DEBUG] 2019-11-10 03:50:07.038 AWSAuthEventStreamV4Signer [140432162760448] Signing request with: AWS4-HMAC-SHA256 Credential=AKIAVS6TSDUXERCNJM5T/20191110/us-east-1/transcribe/aws4_request, SignedHeaders=content-type;host;x-amz-api-version;x-amz-content-sha256;x-amz-date;x-amzn-transcribe-language-code;x-amzn-transcribe-media-encoding;x-amzn-transcribe-sample-rate, Signature=6bceb30730c16c6941a454ace6337a7afe8d1e36e794398dd2216451d7f26239
+[DEBUG] 2019-11-10 03:50:07.042 AWSClient [140432162760448] Request Successfully signed
+[TRACE] 2019-11-10 03:50:07.042 CurlHttpClient [140432162760448] Making request to https://transcribestreaming.us-east-1.amazonaws.com/stream-transcription
+[TRACE] 2019-11-10 03:50:07.042 CurlHttpClient [140432162760448] Including headers:
+[TRACE] 2019-11-10 03:50:07.042 CurlHttpClient [140432162760448] authorization: AWS4-HMAC-SHA256 Credential=AKIAVS6TSDUXERCNJM5T/20191110/us-east-1/transcribe/aws4_request, SignedHeaders=content-type;host;x-amz-api-version;x-amz-content-sha256;x-amz-date;x-amzn-transcribe-language-code;x-amzn-transcribe-media-encoding;x-amzn-transcribe-sample-rate, Signature=6bceb30730c16c6941a454ace6337a7afe8d1e36e794398dd2216451d7f26239
+[TRACE] 2019-11-10 03:50:07.042 CurlHttpClient [140432162760448] content-type: application/vnd.amazon.eventstream
+[TRACE] 2019-11-10 03:50:07.042 CurlHttpClient [140432162760448] host: transcribestreaming.us-east-1.amazonaws.com
+[TRACE] 2019-11-10 03:50:07.042 CurlHttpClient [140432162760448] user-agent: aws-sdk-cpp/1.7.222 Linux/4.15.0-45-generic x86_64 GCC/5.4.0
+[TRACE] 2019-11-10 03:50:07.042 CurlHttpClient [140432162760448] x-amz-api-version: 2017-10-26
+[TRACE] 2019-11-10 03:50:07.042 CurlHttpClient [140432162760448] x-amz-content-sha256: STREAMING-AWS4-HMAC-SHA256-EVENTS
+[TRACE] 2019-11-10 03:50:07.042 CurlHttpClient [140432162760448] x-amz-date: 20191110T035007Z
+[TRACE] 2019-11-10 03:50:07.042 CurlHttpClient [140432162760448] x-amzn-transcribe-language-code: en-US
+[TRACE] 2019-11-10 03:50:07.042 CurlHttpClient [140432162760448] x-amzn-transcribe-media-encoding: pcm
+[TRACE] 2019-11-10 03:50:07.042 CurlHttpClient [140432162760448] x-amzn-transcribe-sample-rate: 16000
+[DEBUG] 2019-11-10 03:50:07.042 CurlHandleContainer [140432162760448] Attempting to acquire curl connection.
+[DEBUG] 2019-11-10 03:50:07.042 CurlHandleContainer [140432162760448] No current connections available in pool. Attempting to create new connections.
+[DEBUG] 2019-11-10 03:50:07.042 CurlHandleContainer [140432162760448] attempting to grow pool size by 2
+[INFO] 2019-11-10 03:50:07.042 CurlHandleContainer [140432162760448] Pool grown by 2
+[INFO] 2019-11-10 03:50:07.042 CurlHandleContainer [140432162760448] Connection has been released. Continuing.
+[DEBUG] 2019-11-10 03:50:07.042 CurlHandleContainer [140432162760448] Returning connection handle 0x7fb8dc00a420
+[DEBUG] 2019-11-10 03:50:07.042 CurlHttpClient [140432162760448] Obtained connection handle 0x7fb8dc00a420
+[TRACE] 2019-11-10 03:50:07.640 CurlHttpClient [140432162760448] HTTP/2 403 
+
+[TRACE] 2019-11-10 03:50:07.640 CurlHttpClient [140432162760448] x-amzn-requestid: e16be4e6-2185-4e7d-b67d-75e2acbef0b2
+
+[TRACE] 2019-11-10 03:50:07.640 CurlHttpClient [140432162760448] x-amzn-errortype: InvalidSignatureException:http://internal.amazon.com/coral/com.amazon.coral.service/
+
+[TRACE] 2019-11-10 03:50:07.640 CurlHttpClient [140432162760448] date: Sun, 10 Nov 2019 03:50:07 GMT
+
+[TRACE] 2019-11-10 03:50:07.640 CurlHttpClient [140432162760448] content-type: application/x-amz-json-1.1
+
+[TRACE] 2019-11-10 03:50:07.640 CurlHttpClient [140432162760448] content-length: 1001
+
+[TRACE] 2019-11-10 03:50:07.640 CurlHttpClient [140432162760448] 
+
+[TRACE] 2019-11-10 03:50:07.640 CurlHttpClient [140432162760448] 1001 bytes written to response.
+[DEBUG] 2019-11-10 03:50:07.640 CurlHttpClient [140432162760448] Returned http response code 403
+[DEBUG] 2019-11-10 03:50:07.640 CurlHttpClient [140432162760448] Returned content type application/x-amz-json-1.1
+[TRACE] 2019-11-10 03:50:07.640 CurlHttpClient [140432162760448] Response content-length header: 1001
+[TRACE] 2019-11-10 03:50:07.640 CurlHttpClient [140432162760448] Response body length: 1001
+[DEBUG] 2019-11-10 03:50:07.640 CurlHttpClient [140432162760448] Releasing curl handle 0x7fb8dc00a420
+[DEBUG] 2019-11-10 03:50:07.640 CurlHandleContainer [140432162760448] Releasing curl handle 0x7fb8dc00a420
+[DEBUG] 2019-11-10 03:50:07.640 CurlHandleContainer [140432162760448] Notified waiting threads.
+[TRACE] 2019-11-10 03:50:07.640 StartStreamTranscriptionHandler [140432162760448] TranscribeStreamingService Errors received, HTTP response code: -1
+Exception name: EventStreamPreludeChecksumFailure
+Error message: CRC Mismatch. prelude_crc was 0x0865223A22, but computed 0x08A98FE9C5
+0 response headers:
+[DEBUG] 2019-11-10 03:50:07.640 AWSClient [140432162760448] Request returned error. Attempting to generate appropriate error codes from response
+[TRACE] 2019-11-10 03:50:07.640 AWSErrorMarshaller [140432162760448] Error response is {
+	"message":	"The request signature we calculated does not match the signature you provided. Check your AWS Secret Access Key and signing method. Consult the service documentation for details.\n\nThe Canonical String for this request should have been\n'POST\n/stream-transcription\n\ncontent-type:application/vnd.amazon.eventstream\nhost:transcribestreaming.us-east-1.amazonaws.com\nx-amz-api-version:2017-10-26\nx-amz-content-sha256:STREAMING-AWS4-HMAC-SHA256-EVENTS\nx-amz-date:20191110T035007Z\nx-amzn-transcribe-language-code:en-US\nx-amzn-transcribe-media-encoding:pcm\nx-amzn-transcribe-sample-rate:16000\n\ncontent-type;host;x-amz-api-version;x-amz-content-sha256;x-amz-date;x-amzn-transcribe-language-code;x-amzn-transcribe-media-encoding;x-amzn-transcribe-sample-rate\nSTREAMING-AWS4-HMAC-SHA256-EVENTS'\n\nThe String-to-Sign should have been\n'AWS4-HMAC-SHA256\n20191110T035007Z\n20191110/us-east-1/transcribe/aws4_request\n53db69df84263f609332308bdf9677f1e625e5e6417954789e9118f8f5e1a54b'\n"
+}
+[WARN] 2019-11-10 03:50:07.640 AWSErrorMarshaller [140432162760448] Encountered AWSError 'InvalidSignatureException': The request signature we calculated does not match the signature you provided. Check your AWS Secret Access Key and signing method. Consult the service documentation for details.
+
+The Canonical String for this request should have been
+'POST
+/stream-transcription
+
+content-type:application/vnd.amazon.eventstream
+host:transcribestreaming.us-east-1.amazonaws.com
+x-amz-api-version:2017-10-26
+x-amz-content-sha256:STREAMING-AWS4-HMAC-SHA256-EVENTS
+x-amz-date:20191110T035007Z
+x-amzn-transcribe-language-code:en-US
+x-amzn-transcribe-media-encoding:pcm
+x-amzn-transcribe-sample-rate:16000
+
+content-type;host;x-amz-api-version;x-amz-content-sha256;x-amz-date;x-amzn-transcribe-language-code;x-amzn-transcribe-media-encoding;x-amzn-transcribe-sample-rate
+STREAMING-AWS4-HMAC-SHA256-EVENTS'
+
+The String-to-Sign should have been
+'AWS4-HMAC-SHA256
+20191110T035007Z
+20191110/us-east-1/transcribe/aws4_request
+53db69df84263f609332308bdf9677f1e625e5e6417954789e9118f8f5e1a54b'
+
+[ERROR] 2019-11-10 03:50:07.640 AWSClient [140432162760448] HTTP response code: 403
+Exception name: InvalidSignatureException
+Error message: The request signature we calculated does not match the signature you provided. Check your AWS Secret Access Key and signing method. Consult the service documentation for details.
+
+The Canonical String for this request should have been
+'POST
+/stream-transcription
+
+content-type:application/vnd.amazon.eventstream
+host:transcribestreaming.us-east-1.amazonaws.com
+x-amz-api-version:2017-10-26
+x-amz-content-sha256:STREAMING-AWS4-HMAC-SHA256-EVENTS
+x-amz-date:20191110T035007Z
+x-amzn-transcribe-language-code:en-US
+x-amzn-transcribe-media-encoding:pcm
+x-amzn-transcribe-sample-rate:16000
+
+content-type;host;x-amz-api-version;x-amz-content-sha256;x-amz-date;x-amzn-transcribe-language-code;x-amzn-transcribe-media-encoding;x-amzn-transcribe-sample-rate
+STREAMING-AWS4-HMAC-SHA256-EVENTS'
+
+The String-to-Sign should have been
+'AWS4-HMAC-SHA256
+20191110T035007Z
+20191110/us-east-1/transcribe/aws4_request
+53db69df84263f609332308bdf9677f1e625e5e6417954789e9118f8f5e1a54b'
+
+5 response headers:
+content-length : 1001
+content-type : application/x-amz-json-1.1
+date : Sun, 10 Nov 2019 03:50:07 GMT
+x-amzn-errortype : InvalidSignatureException:http://internal.amazon.com/coral/com.amazon.coral.service/
+x-amzn-requestid : e16be4e6-2185-4e7d-b67d-75e2acbef0b2
+[WARN] 2019-11-10 03:50:07.640 AWSClient [140432162760448] If the signature check failed. This could be because of a time skew. Attempting to adjust the signer.
+[DEBUG] 2019-11-10 03:50:07.640 AWSClient [140432162760448] Server time is Sun, 10 Nov 2019 03:50:07 GMT, while client time is Sun, 10 Nov 2019 03:50:07 GMT
+[INFO] 2019-11-10 03:50:07.640 CurlHandleContainer [140432208975680] Cleaning up CurlHandleContainer.
+[INFO] 2019-11-10 03:50:07.640 CurlHandleContainer [140432208975680] Cleaning up CurlHandleContainer.
+[DEBUG] 2019-11-10 03:50:07.640 CurlHandleContainer [140432208975680] Cleaning up 0x7fb8dc004ca0
+[DEBUG] 2019-11-10 03:50:07.640 CurlHandleContainer [140432208975680] Cleaning up 0x7fb8dc00a420
+[INFO] 2019-11-10 03:51:32.394 Aws_Init_Cleanup [140118496995136] Initiate AWS SDK for C++ with Version:1.7.222
+[INFO] 2019-11-10 03:51:32.395 CurlHttpClient [140118496995136] Initializing Curl library with version: 7.67.0, ssl version: OpenSSL/1.0.2g
+[TRACE] 2019-11-10 03:51:32.438 FileSystemUtils [140118496995136] Checking HOME for the home directory.
+[DEBUG] 2019-11-10 03:51:32.438 FileSystemUtils [140118496995136] Environment value for variable HOME is /home/hangbo
+[DEBUG] 2019-11-10 03:51:32.445 FileSystemUtils [140118496995136] Home directory is missing the final / appending one to normalize
+[DEBUG] 2019-11-10 03:51:32.445 FileSystemUtils [140118496995136] Final Home Directory is /home/hangbo/
+[INFO] 2019-11-10 03:51:32.445 Aws::Config::AWSConfigFileProfileConfigLoader [140118496995136] Initializing config loader against fileName /home/hangbo/.aws/config and using profilePrefix = 1
+[DEBUG] 2019-11-10 03:51:32.446 Aws::Config::ConfigFileProfileFSM [140118496995136] found profile default
+[DEBUG] 2019-11-10 03:51:32.446 Aws::Config::ConfigFileProfileFSM [140118496995136] found region us-west-1
+[INFO] 2019-11-10 03:51:32.446 Aws::Config::AWSProfileConfigLoader [140118496995136] Successfully reloaded configuration.
+[TRACE] 2019-11-10 03:51:32.446 Aws::Config::AWSProfileConfigLoader [140118496995136] reloaded config at 2019-11-10T03:51:32Z
+[TRACE] 2019-11-10 03:51:32.446 FileSystemUtils [140118496995136] Checking HOME for the home directory.
+[DEBUG] 2019-11-10 03:51:32.446 FileSystemUtils [140118496995136] Environment value for variable HOME is /home/hangbo
+[DEBUG] 2019-11-10 03:51:32.446 FileSystemUtils [140118496995136] Home directory is missing the final / appending one to normalize
+[DEBUG] 2019-11-10 03:51:32.446 FileSystemUtils [140118496995136] Final Home Directory is /home/hangbo/
+[INFO] 2019-11-10 03:51:32.446 Aws::Config::AWSConfigFileProfileConfigLoader [140118496995136] Initializing config loader against fileName /home/hangbo/.aws/credentials and using profilePrefix = 0
+[TRACE] 2019-11-10 03:51:32.446 FileSystemUtils [140118496995136] Checking HOME for the home directory.
+[DEBUG] 2019-11-10 03:51:32.446 FileSystemUtils [140118496995136] Environment value for variable HOME is /home/hangbo
+[DEBUG] 2019-11-10 03:51:32.446 FileSystemUtils [140118496995136] Home directory is missing the final / appending one to normalize
+[DEBUG] 2019-11-10 03:51:32.446 FileSystemUtils [140118496995136] Final Home Directory is /home/hangbo/
+[TRACE] 2019-11-10 03:51:32.446 FileSystemUtils [140118496995136] Checking HOME for the home directory.
+[DEBUG] 2019-11-10 03:51:32.446 FileSystemUtils [140118496995136] Environment value for variable HOME is /home/hangbo
+[DEBUG] 2019-11-10 03:51:32.446 FileSystemUtils [140118496995136] Home directory is missing the final / appending one to normalize
+[DEBUG] 2019-11-10 03:51:32.446 FileSystemUtils [140118496995136] Final Home Directory is /home/hangbo/
+[INFO] 2019-11-10 03:51:32.446 ProfileConfigFileAWSCredentialsProvider [140118496995136] Setting provider to read credentials from /home/hangbo/.aws/credentials for credentials file and /home/hangbo/.aws/config for the config file , for use with profile default
+[TRACE] 2019-11-10 03:51:32.446 FileSystemUtils [140118496995136] Checking HOME for the home directory.
+[DEBUG] 2019-11-10 03:51:32.446 FileSystemUtils [140118496995136] Environment value for variable HOME is /home/hangbo
+[DEBUG] 2019-11-10 03:51:32.446 FileSystemUtils [140118496995136] Home directory is missing the final / appending one to normalize
+[DEBUG] 2019-11-10 03:51:32.446 FileSystemUtils [140118496995136] Final Home Directory is /home/hangbo/
+[INFO] 2019-11-10 03:51:32.446 Aws::Config::AWSConfigFileProfileConfigLoader [140118496995136] Initializing config loader against fileName /home/hangbo/.aws/config and using profilePrefix = 1
+[DEBUG] 2019-11-10 03:51:32.446 Aws::Config::ConfigFileProfileFSM [140118496995136] found profile default
+[DEBUG] 2019-11-10 03:51:32.446 Aws::Config::ConfigFileProfileFSM [140118496995136] found region us-west-1
+[INFO] 2019-11-10 03:51:32.446 Aws::Config::AWSProfileConfigLoader [140118496995136] Successfully reloaded configuration.
+[TRACE] 2019-11-10 03:51:32.446 Aws::Config::AWSProfileConfigLoader [140118496995136] reloaded config at 2019-11-10T03:51:32Z
+[WARN] 2019-11-10 03:51:32.446 STSAssumeRoleWithWebIdentityCredentialsProvider [140118496995136] Token file must be specified to use STS AssumeRole web identity creds provider.
+[DEBUG] 2019-11-10 03:51:32.446 DefaultAWSCredentialsProviderChain [140118496995136] The environment variable value AWS_CONTAINER_CREDENTIALS_RELATIVE_URI is 
+[DEBUG] 2019-11-10 03:51:32.446 DefaultAWSCredentialsProviderChain [140118496995136] The environment variable value AWS_CONTAINER_CREDENTIALS_FULL_URI is 
+[DEBUG] 2019-11-10 03:51:32.447 DefaultAWSCredentialsProviderChain [140118496995136] The environment variable value AWS_EC2_METADATA_DISABLED is 
+[INFO] 2019-11-10 03:51:32.447 EC2MetadataClient [140118496995136] Creating AWSHttpResourceClient with max connections2 and scheme http
+[INFO] 2019-11-10 03:51:32.447 CurlHandleContainer [140118496995136] Initializing CurlHandleContainer with size 2
+[INFO] 2019-11-10 03:51:32.447 InstanceProfileCredentialsProvider [140118496995136] Creating Instance with default EC2MetadataClient and refresh rate 300000
+[INFO] 2019-11-10 03:51:32.447 DefaultAWSCredentialsProviderChain [140118496995136] Added EC2 metadata service credentials provider to the provider chain.
+[DEBUG] 2019-11-10 03:51:32.447 Aws::Config::ConfigFileProfileFSM [140118496995136] found profile default
+[DEBUG] 2019-11-10 03:51:32.447 Aws::Config::ConfigFileProfileFSM [140118496995136] found access key AKIAVS6TSDUXERCNJM5T
+[INFO] 2019-11-10 03:51:32.447 Aws::Config::AWSProfileConfigLoader [140118496995136] Successfully reloaded configuration.
+[TRACE] 2019-11-10 03:51:32.447 Aws::Config::AWSProfileConfigLoader [140118496995136] reloaded config at 2019-11-10T03:51:32Z
+[INFO] 2019-11-10 03:51:32.447 CurlHandleContainer [140118496995136] Initializing CurlHandleContainer with size 25
+[DEBUG] 2019-11-10 03:51:32.450 AWSAuthEventStreamV4Signer [140118450779904] Canonical Header String: content-type:application/vnd.amazon.eventstream
+host:transcribestreaming.us-east-1.amazonaws.com
+x-amz-api-version:2017-10-26
+x-amz-content-sha256:STREAMING-AWS4-HMAC-SHA256-EVENTS
+x-amz-date:20191110T035132Z
+x-amzn-transcribe-language-code:en-US
+x-amzn-transcribe-media-encoding:pcm
+x-amzn-transcribe-sample-rate:16000
+
+[DEBUG] 2019-11-10 03:51:32.450 AWSAuthEventStreamV4Signer [140118450779904] Signed Headers value:content-type;host;x-amz-api-version;x-amz-content-sha256;x-amz-date;x-amzn-transcribe-language-code;x-amzn-transcribe-media-encoding;x-amzn-transcribe-sample-rate
+[DEBUG] 2019-11-10 03:51:32.450 AWSAuthEventStreamV4Signer [140118450779904] Canonical Request String: POST
+/stream-transcription
+
+content-type:application/vnd.amazon.eventstream
+host:transcribestreaming.us-east-1.amazonaws.com
+x-amz-api-version:2017-10-26
+x-amz-content-sha256:STREAMING-AWS4-HMAC-SHA256-EVENTS
+x-amz-date:20191110T035132Z
+x-amzn-transcribe-language-code:en-US
+x-amzn-transcribe-media-encoding:pcm
+x-amzn-transcribe-sample-rate:16000
+
+content-type;host;x-amz-api-version;x-amz-content-sha256;x-amz-date;x-amzn-transcribe-language-code;x-amzn-transcribe-media-encoding;x-amzn-transcribe-sample-rate
+STREAMING-AWS4-HMAC-SHA256-EVENTS
+[DEBUG] 2019-11-10 03:51:32.450 AWSAuthEventStreamV4Signer [140118450779904] Final String to sign: AWS4-HMAC-SHA256
+20191110T035132Z
+20191110/us-east-1/transcribe/aws4_request
+87772dcd7a914e58307ffc0e9c7e8dd4f91755c0e88120ced01ef348eda0ac1a
+[DEBUG] 2019-11-10 03:51:32.450 AWSAuthEventStreamV4Signer [140118450779904] Signing request with: AWS4-HMAC-SHA256 Credential=AKIAVS6TSDUXERCNJM5T/20191110/us-east-1/transcribe/aws4_request, SignedHeaders=content-type;host;x-amz-api-version;x-amz-content-sha256;x-amz-date;x-amzn-transcribe-language-code;x-amzn-transcribe-media-encoding;x-amzn-transcribe-sample-rate, Signature=74abeda54ea3910372c0b9f4703469ae1b28d623be94e3fdadc56fd44bf38ea2
+[DEBUG] 2019-11-10 03:51:32.453 AWSClient [140118450779904] Request Successfully signed
+[TRACE] 2019-11-10 03:51:32.453 CurlHttpClient [140118450779904] Making request to https://transcribestreaming.us-east-1.amazonaws.com/stream-transcription
+[TRACE] 2019-11-10 03:51:32.453 CurlHttpClient [140118450779904] Including headers:
+[TRACE] 2019-11-10 03:51:32.454 CurlHttpClient [140118450779904] authorization: AWS4-HMAC-SHA256 Credential=AKIAVS6TSDUXERCNJM5T/20191110/us-east-1/transcribe/aws4_request, SignedHeaders=content-type;host;x-amz-api-version;x-amz-content-sha256;x-amz-date;x-amzn-transcribe-language-code;x-amzn-transcribe-media-encoding;x-amzn-transcribe-sample-rate, Signature=74abeda54ea3910372c0b9f4703469ae1b28d623be94e3fdadc56fd44bf38ea2
+[TRACE] 2019-11-10 03:51:32.454 CurlHttpClient [140118450779904] content-type: application/vnd.amazon.eventstream
+[TRACE] 2019-11-10 03:51:32.454 CurlHttpClient [140118450779904] host: transcribestreaming.us-east-1.amazonaws.com
+[TRACE] 2019-11-10 03:51:32.454 CurlHttpClient [140118450779904] user-agent: aws-sdk-cpp/1.7.222 Linux/4.15.0-45-generic x86_64 GCC/5.4.0
+[TRACE] 2019-11-10 03:51:32.454 CurlHttpClient [140118450779904] x-amz-api-version: 2017-10-26
+[TRACE] 2019-11-10 03:51:32.454 CurlHttpClient [140118450779904] x-amz-content-sha256: STREAMING-AWS4-HMAC-SHA256-EVENTS
+[TRACE] 2019-11-10 03:51:32.454 CurlHttpClient [140118450779904] x-amz-date: 20191110T035132Z
+[TRACE] 2019-11-10 03:51:32.454 CurlHttpClient [140118450779904] x-amzn-transcribe-language-code: en-US
+[TRACE] 2019-11-10 03:51:32.454 CurlHttpClient [140118450779904] x-amzn-transcribe-media-encoding: pcm
+[TRACE] 2019-11-10 03:51:32.454 CurlHttpClient [140118450779904] x-amzn-transcribe-sample-rate: 16000
+[DEBUG] 2019-11-10 03:51:32.454 CurlHandleContainer [140118450779904] Attempting to acquire curl connection.
+[DEBUG] 2019-11-10 03:51:32.454 CurlHandleContainer [140118450779904] No current connections available in pool. Attempting to create new connections.
+[DEBUG] 2019-11-10 03:51:32.454 CurlHandleContainer [140118450779904] attempting to grow pool size by 2
+[INFO] 2019-11-10 03:51:32.454 CurlHandleContainer [140118450779904] Pool grown by 2
+[INFO] 2019-11-10 03:51:32.454 CurlHandleContainer [140118450779904] Connection has been released. Continuing.
+[DEBUG] 2019-11-10 03:51:32.454 CurlHandleContainer [140118450779904] Returning connection handle 0x7f6fd000a420
+[DEBUG] 2019-11-10 03:51:32.454 CurlHttpClient [140118450779904] Obtained connection handle 0x7f6fd000a420
+[TRACE] 2019-11-10 03:51:33.002 CurlHttpClient [140118450779904] HTTP/2 403 
+
+[TRACE] 2019-11-10 03:51:33.002 CurlHttpClient [140118450779904] x-amzn-requestid: 24189cd8-190a-4d65-b2fe-d0176ca92c91
+
+[TRACE] 2019-11-10 03:51:33.002 CurlHttpClient [140118450779904] x-amzn-errortype: InvalidSignatureException:http://internal.amazon.com/coral/com.amazon.coral.service/
+
+[TRACE] 2019-11-10 03:51:33.002 CurlHttpClient [140118450779904] date: Sun, 10 Nov 2019 03:51:32 GMT
+
+[TRACE] 2019-11-10 03:51:33.002 CurlHttpClient [140118450779904] content-type: application/x-amz-json-1.1
+
+[TRACE] 2019-11-10 03:51:33.002 CurlHttpClient [140118450779904] content-length: 1001
+
+[TRACE] 2019-11-10 03:51:33.002 CurlHttpClient [140118450779904] 
+
+[TRACE] 2019-11-10 03:51:33.002 CurlHttpClient [140118450779904] 1001 bytes written to response.
+[DEBUG] 2019-11-10 03:51:33.002 CurlHttpClient [140118450779904] Returned http response code 403
+[DEBUG] 2019-11-10 03:51:33.002 CurlHttpClient [140118450779904] Returned content type application/x-amz-json-1.1
+[TRACE] 2019-11-10 03:51:33.002 CurlHttpClient [140118450779904] Response content-length header: 1001
+[TRACE] 2019-11-10 03:51:33.002 CurlHttpClient [140118450779904] Response body length: 1001
+[DEBUG] 2019-11-10 03:51:33.002 CurlHttpClient [140118450779904] Releasing curl handle 0x7f6fd000a420
+[DEBUG] 2019-11-10 03:51:33.002 CurlHandleContainer [140118450779904] Releasing curl handle 0x7f6fd000a420
+[DEBUG] 2019-11-10 03:51:33.002 CurlHandleContainer [140118450779904] Notified waiting threads.
+[TRACE] 2019-11-10 03:51:33.002 StartStreamTranscriptionHandler [140118450779904] TranscribeStreamingService Errors received, HTTP response code: -1
+Exception name: EventStreamPreludeChecksumFailure
+Error message: CRC Mismatch. prelude_crc was 0x0865223A22, but computed 0x08A98FE9C5
+0 response headers:
+[DEBUG] 2019-11-10 03:51:33.002 AWSClient [140118450779904] Request returned error. Attempting to generate appropriate error codes from response
+[TRACE] 2019-11-10 03:51:33.002 AWSErrorMarshaller [140118450779904] Error response is {
+	"message":	"The request signature we calculated does not match the signature you provided. Check your AWS Secret Access Key and signing method. Consult the service documentation for details.\n\nThe Canonical String for this request should have been\n'POST\n/stream-transcription\n\ncontent-type:application/vnd.amazon.eventstream\nhost:transcribestreaming.us-east-1.amazonaws.com\nx-amz-api-version:2017-10-26\nx-amz-content-sha256:STREAMING-AWS4-HMAC-SHA256-EVENTS\nx-amz-date:20191110T035132Z\nx-amzn-transcribe-language-code:en-US\nx-amzn-transcribe-media-encoding:pcm\nx-amzn-transcribe-sample-rate:16000\n\ncontent-type;host;x-amz-api-version;x-amz-content-sha256;x-amz-date;x-amzn-transcribe-language-code;x-amzn-transcribe-media-encoding;x-amzn-transcribe-sample-rate\nSTREAMING-AWS4-HMAC-SHA256-EVENTS'\n\nThe String-to-Sign should have been\n'AWS4-HMAC-SHA256\n20191110T035132Z\n20191110/us-east-1/transcribe/aws4_request\n87772dcd7a914e58307ffc0e9c7e8dd4f91755c0e88120ced01ef348eda0ac1a'\n"
+}
+[WARN] 2019-11-10 03:51:33.002 AWSErrorMarshaller [140118450779904] Encountered AWSError 'InvalidSignatureException': The request signature we calculated does not match the signature you provided. Check your AWS Secret Access Key and signing method. Consult the service documentation for details.
+
+The Canonical String for this request should have been
+'POST
+/stream-transcription
+
+content-type:application/vnd.amazon.eventstream
+host:transcribestreaming.us-east-1.amazonaws.com
+x-amz-api-version:2017-10-26
+x-amz-content-sha256:STREAMING-AWS4-HMAC-SHA256-EVENTS
+x-amz-date:20191110T035132Z
+x-amzn-transcribe-language-code:en-US
+x-amzn-transcribe-media-encoding:pcm
+x-amzn-transcribe-sample-rate:16000
+
+content-type;host;x-amz-api-version;x-amz-content-sha256;x-amz-date;x-amzn-transcribe-language-code;x-amzn-transcribe-media-encoding;x-amzn-transcribe-sample-rate
+STREAMING-AWS4-HMAC-SHA256-EVENTS'
+
+The String-to-Sign should have been
+'AWS4-HMAC-SHA256
+20191110T035132Z
+20191110/us-east-1/transcribe/aws4_request
+87772dcd7a914e58307ffc0e9c7e8dd4f91755c0e88120ced01ef348eda0ac1a'
+
+[ERROR] 2019-11-10 03:51:33.002 AWSClient [140118450779904] HTTP response code: 403
+Exception name: InvalidSignatureException
+Error message: The request signature we calculated does not match the signature you provided. Check your AWS Secret Access Key and signing method. Consult the service documentation for details.
+
+The Canonical String for this request should have been
+'POST
+/stream-transcription
+
+content-type:application/vnd.amazon.eventstream
+host:transcribestreaming.us-east-1.amazonaws.com
+x-amz-api-version:2017-10-26
+x-amz-content-sha256:STREAMING-AWS4-HMAC-SHA256-EVENTS
+x-amz-date:20191110T035132Z
+x-amzn-transcribe-language-code:en-US
+x-amzn-transcribe-media-encoding:pcm
+x-amzn-transcribe-sample-rate:16000
+
+content-type;host;x-amz-api-version;x-amz-content-sha256;x-amz-date;x-amzn-transcribe-language-code;x-amzn-transcribe-media-encoding;x-amzn-transcribe-sample-rate
+STREAMING-AWS4-HMAC-SHA256-EVENTS'
+
+The String-to-Sign should have been
+'AWS4-HMAC-SHA256
+20191110T035132Z
+20191110/us-east-1/transcribe/aws4_request
+87772dcd7a914e58307ffc0e9c7e8dd4f91755c0e88120ced01ef348eda0ac1a'
+
+5 response headers:
+content-length : 1001
+content-type : application/x-amz-json-1.1
+date : Sun, 10 Nov 2019 03:51:32 GMT
+x-amzn-errortype : InvalidSignatureException:http://internal.amazon.com/coral/com.amazon.coral.service/
+x-amzn-requestid : 24189cd8-190a-4d65-b2fe-d0176ca92c91
+[WARN] 2019-11-10 03:51:33.002 AWSClient [140118450779904] If the signature check failed. This could be because of a time skew. Attempting to adjust the signer.
+[DEBUG] 2019-11-10 03:51:33.002 AWSClient [140118450779904] Server time is Sun, 10 Nov 2019 03:51:32 GMT, while client time is Sun, 10 Nov 2019 03:51:33 GMT
+[INFO] 2019-11-10 03:51:33.002 CurlHandleContainer [140118496995136] Cleaning up CurlHandleContainer.
+[INFO] 2019-11-10 03:51:33.002 CurlHandleContainer [140118496995136] Cleaning up CurlHandleContainer.
+[DEBUG] 2019-11-10 03:51:33.002 CurlHandleContainer [140118496995136] Cleaning up 0x7f6fd0004ca0
+[DEBUG] 2019-11-10 03:51:33.002 CurlHandleContainer [140118496995136] Cleaning up 0x7f6fd000a420
+[INFO] 2019-11-10 03:56:14.468 Aws_Init_Cleanup [140660453422912] Initiate AWS SDK for C++ with Version:1.7.222
+[INFO] 2019-11-10 03:56:14.469 CurlHttpClient [140660453422912] Initializing Curl library with version: 7.67.0, ssl version: OpenSSL/1.0.2g
+[TRACE] 2019-11-10 03:56:14.507 FileSystemUtils [140660453422912] Checking HOME for the home directory.
+[DEBUG] 2019-11-10 03:56:14.507 FileSystemUtils [140660453422912] Environment value for variable HOME is /home/hangbo
+[DEBUG] 2019-11-10 03:56:14.507 FileSystemUtils [140660453422912] Home directory is missing the final / appending one to normalize
+[DEBUG] 2019-11-10 03:56:14.507 FileSystemUtils [140660453422912] Final Home Directory is /home/hangbo/
+[INFO] 2019-11-10 03:56:14.507 Aws::Config::AWSConfigFileProfileConfigLoader [140660453422912] Initializing config loader against fileName /home/hangbo/.aws/config and using profilePrefix = 1
+[DEBUG] 2019-11-10 03:56:14.507 Aws::Config::ConfigFileProfileFSM [140660453422912] found profile default
+[DEBUG] 2019-11-10 03:56:14.507 Aws::Config::ConfigFileProfileFSM [140660453422912] found region us-west-1
+[INFO] 2019-11-10 03:56:14.507 Aws::Config::AWSProfileConfigLoader [140660453422912] Successfully reloaded configuration.
+[TRACE] 2019-11-10 03:56:14.507 Aws::Config::AWSProfileConfigLoader [140660453422912] reloaded config at 2019-11-10T03:56:14Z
+[TRACE] 2019-11-10 03:56:14.507 FileSystemUtils [140660453422912] Checking HOME for the home directory.
+[DEBUG] 2019-11-10 03:56:14.507 FileSystemUtils [140660453422912] Environment value for variable HOME is /home/hangbo
+[DEBUG] 2019-11-10 03:56:14.507 FileSystemUtils [140660453422912] Home directory is missing the final / appending one to normalize
+[DEBUG] 2019-11-10 03:56:14.507 FileSystemUtils [140660453422912] Final Home Directory is /home/hangbo/
+[INFO] 2019-11-10 03:56:14.507 Aws::Config::AWSConfigFileProfileConfigLoader [140660453422912] Initializing config loader against fileName /home/hangbo/.aws/credentials and using profilePrefix = 0
+[TRACE] 2019-11-10 03:56:14.507 FileSystemUtils [140660453422912] Checking HOME for the home directory.
+[DEBUG] 2019-11-10 03:56:14.508 FileSystemUtils [140660453422912] Environment value for variable HOME is /home/hangbo
+[DEBUG] 2019-11-10 03:56:14.508 FileSystemUtils [140660453422912] Home directory is missing the final / appending one to normalize
+[DEBUG] 2019-11-10 03:56:14.508 FileSystemUtils [140660453422912] Final Home Directory is /home/hangbo/
+[TRACE] 2019-11-10 03:56:14.508 FileSystemUtils [140660453422912] Checking HOME for the home directory.
+[DEBUG] 2019-11-10 03:56:14.508 FileSystemUtils [140660453422912] Environment value for variable HOME is /home/hangbo
+[DEBUG] 2019-11-10 03:56:14.508 FileSystemUtils [140660453422912] Home directory is missing the final / appending one to normalize
+[DEBUG] 2019-11-10 03:56:14.508 FileSystemUtils [140660453422912] Final Home Directory is /home/hangbo/
+[INFO] 2019-11-10 03:56:14.508 ProfileConfigFileAWSCredentialsProvider [140660453422912] Setting provider to read credentials from /home/hangbo/.aws/credentials for credentials file and /home/hangbo/.aws/config for the config file , for use with profile default
+[TRACE] 2019-11-10 03:56:14.508 FileSystemUtils [140660453422912] Checking HOME for the home directory.
+[DEBUG] 2019-11-10 03:56:14.508 FileSystemUtils [140660453422912] Environment value for variable HOME is /home/hangbo
+[DEBUG] 2019-11-10 03:56:14.508 FileSystemUtils [140660453422912] Home directory is missing the final / appending one to normalize
+[DEBUG] 2019-11-10 03:56:14.508 FileSystemUtils [140660453422912] Final Home Directory is /home/hangbo/
+[INFO] 2019-11-10 03:56:14.508 Aws::Config::AWSConfigFileProfileConfigLoader [140660453422912] Initializing config loader against fileName /home/hangbo/.aws/config and using profilePrefix = 1
+[DEBUG] 2019-11-10 03:56:14.508 Aws::Config::ConfigFileProfileFSM [140660453422912] found profile default
+[DEBUG] 2019-11-10 03:56:14.508 Aws::Config::ConfigFileProfileFSM [140660453422912] found region us-west-1
+[INFO] 2019-11-10 03:56:14.508 Aws::Config::AWSProfileConfigLoader [140660453422912] Successfully reloaded configuration.
+[TRACE] 2019-11-10 03:56:14.508 Aws::Config::AWSProfileConfigLoader [140660453422912] reloaded config at 2019-11-10T03:56:14Z
+[WARN] 2019-11-10 03:56:14.508 STSAssumeRoleWithWebIdentityCredentialsProvider [140660453422912] Token file must be specified to use STS AssumeRole web identity creds provider.
+[DEBUG] 2019-11-10 03:56:14.508 DefaultAWSCredentialsProviderChain [140660453422912] The environment variable value AWS_CONTAINER_CREDENTIALS_RELATIVE_URI is 
+[DEBUG] 2019-11-10 03:56:14.508 DefaultAWSCredentialsProviderChain [140660453422912] The environment variable value AWS_CONTAINER_CREDENTIALS_FULL_URI is 
+[DEBUG] 2019-11-10 03:56:14.508 DefaultAWSCredentialsProviderChain [140660453422912] The environment variable value AWS_EC2_METADATA_DISABLED is 
+[INFO] 2019-11-10 03:56:14.508 EC2MetadataClient [140660453422912] Creating AWSHttpResourceClient with max connections2 and scheme http
+[INFO] 2019-11-10 03:56:14.508 CurlHandleContainer [140660453422912] Initializing CurlHandleContainer with size 2
+[INFO] 2019-11-10 03:56:14.508 InstanceProfileCredentialsProvider [140660453422912] Creating Instance with default EC2MetadataClient and refresh rate 300000
+[INFO] 2019-11-10 03:56:14.508 DefaultAWSCredentialsProviderChain [140660453422912] Added EC2 metadata service credentials provider to the provider chain.
+[DEBUG] 2019-11-10 03:56:14.508 Aws::Config::ConfigFileProfileFSM [140660453422912] found profile default
+[DEBUG] 2019-11-10 03:56:14.508 Aws::Config::ConfigFileProfileFSM [140660453422912] found access key AKIAVS6TSDUXERCNJM5T
+[INFO] 2019-11-10 03:56:14.508 Aws::Config::AWSProfileConfigLoader [140660453422912] Successfully reloaded configuration.
+[TRACE] 2019-11-10 03:56:14.508 Aws::Config::AWSProfileConfigLoader [140660453422912] reloaded config at 2019-11-10T03:56:14Z
+[INFO] 2019-11-10 03:56:14.508 CurlHandleContainer [140660453422912] Initializing CurlHandleContainer with size 25
+[DEBUG] 2019-11-10 03:56:14.508 AWSAuthEventStreamV4Signer [140660407207680] Canonical Header String: content-type:application/vnd.amazon.eventstream
+host:transcribestreaming.us-east-1.amazonaws.com
+x-amz-api-version:2017-10-26
+x-amz-content-sha256:STREAMING-AWS4-HMAC-SHA256-EVENTS
+x-amz-date:20191110T035614Z
+x-amzn-transcribe-language-code:en-US
+x-amzn-transcribe-media-encoding:pcm
+x-amzn-transcribe-sample-rate:16000
+
+[DEBUG] 2019-11-10 03:56:14.508 AWSAuthEventStreamV4Signer [140660407207680] Signed Headers value:content-type;host;x-amz-api-version;x-amz-content-sha256;x-amz-date;x-amzn-transcribe-language-code;x-amzn-transcribe-media-encoding;x-amzn-transcribe-sample-rate
+[DEBUG] 2019-11-10 03:56:14.508 AWSAuthEventStreamV4Signer [140660407207680] Canonical Request String: POST
+/stream-transcription
+
+content-type:application/vnd.amazon.eventstream
+host:transcribestreaming.us-east-1.amazonaws.com
+x-amz-api-version:2017-10-26
+x-amz-content-sha256:STREAMING-AWS4-HMAC-SHA256-EVENTS
+x-amz-date:20191110T035614Z
+x-amzn-transcribe-language-code:en-US
+x-amzn-transcribe-media-encoding:pcm
+x-amzn-transcribe-sample-rate:16000
+
+content-type;host;x-amz-api-version;x-amz-content-sha256;x-amz-date;x-amzn-transcribe-language-code;x-amzn-transcribe-media-encoding;x-amzn-transcribe-sample-rate
+STREAMING-AWS4-HMAC-SHA256-EVENTS
+[DEBUG] 2019-11-10 03:56:14.508 AWSAuthEventStreamV4Signer [140660407207680] Final String to sign: AWS4-HMAC-SHA256
+20191110T035614Z
+20191110/us-east-1/transcribe/aws4_request
+d2b837099b6da1e91ac0dc23890b55106e3fc256a7fb6f95716b6a214ac09922
+[DEBUG] 2019-11-10 03:56:14.508 AWSAuthEventStreamV4Signer [140660407207680] Signing request with: AWS4-HMAC-SHA256 Credential=AKIAVS6TSDUXERCNJM5T/20191110/us-east-1/transcribe/aws4_request, SignedHeaders=content-type;host;x-amz-api-version;x-amz-content-sha256;x-amz-date;x-amzn-transcribe-language-code;x-amzn-transcribe-media-encoding;x-amzn-transcribe-sample-rate, Signature=fc1c495199a51e7eee1c0c0f4ece1919c28026569f06b983668447d7a2f65d60
+[DEBUG] 2019-11-10 03:56:14.509 AWSClient [140660407207680] Request Successfully signed
+[TRACE] 2019-11-10 03:56:14.509 CurlHttpClient [140660407207680] Making request to https://transcribestreaming.us-east-1.amazonaws.com/stream-transcription
+[TRACE] 2019-11-10 03:56:14.509 CurlHttpClient [140660407207680] Including headers:
+[TRACE] 2019-11-10 03:56:14.509 CurlHttpClient [140660407207680] authorization: AWS4-HMAC-SHA256 Credential=AKIAVS6TSDUXERCNJM5T/20191110/us-east-1/transcribe/aws4_request, SignedHeaders=content-type;host;x-amz-api-version;x-amz-content-sha256;x-amz-date;x-amzn-transcribe-language-code;x-amzn-transcribe-media-encoding;x-amzn-transcribe-sample-rate, Signature=fc1c495199a51e7eee1c0c0f4ece1919c28026569f06b983668447d7a2f65d60
+[TRACE] 2019-11-10 03:56:14.509 CurlHttpClient [140660407207680] content-type: application/vnd.amazon.eventstream
+[TRACE] 2019-11-10 03:56:14.509 CurlHttpClient [140660407207680] host: transcribestreaming.us-east-1.amazonaws.com
+[TRACE] 2019-11-10 03:56:14.509 CurlHttpClient [140660407207680] user-agent: aws-sdk-cpp/1.7.222 Linux/4.15.0-45-generic x86_64 GCC/5.4.0
+[TRACE] 2019-11-10 03:56:14.509 CurlHttpClient [140660407207680] x-amz-api-version: 2017-10-26
+[TRACE] 2019-11-10 03:56:14.509 CurlHttpClient [140660407207680] x-amz-content-sha256: STREAMING-AWS4-HMAC-SHA256-EVENTS
+[TRACE] 2019-11-10 03:56:14.509 CurlHttpClient [140660407207680] x-amz-date: 20191110T035614Z
+[TRACE] 2019-11-10 03:56:14.509 CurlHttpClient [140660407207680] x-amzn-transcribe-language-code: en-US
+[TRACE] 2019-11-10 03:56:14.509 CurlHttpClient [140660407207680] x-amzn-transcribe-media-encoding: pcm
+[TRACE] 2019-11-10 03:56:14.509 CurlHttpClient [140660407207680] x-amzn-transcribe-sample-rate: 16000
+[DEBUG] 2019-11-10 03:56:14.509 CurlHandleContainer [140660407207680] Attempting to acquire curl connection.
+[DEBUG] 2019-11-10 03:56:14.509 CurlHandleContainer [140660407207680] No current connections available in pool. Attempting to create new connections.
+[DEBUG] 2019-11-10 03:56:14.509 CurlHandleContainer [140660407207680] attempting to grow pool size by 2
+[INFO] 2019-11-10 03:56:14.509 CurlHandleContainer [140660407207680] Pool grown by 2
+[INFO] 2019-11-10 03:56:14.509 CurlHandleContainer [140660407207680] Connection has been released. Continuing.
+[DEBUG] 2019-11-10 03:56:14.509 CurlHandleContainer [140660407207680] Returning connection handle 0x7fee0000a420
+[DEBUG] 2019-11-10 03:56:14.509 CurlHttpClient [140660407207680] Obtained connection handle 0x7fee0000a420
+[TRACE] 2019-11-10 03:56:14.912 CurlHttpClient [140660407207680] HTTP/2 403 
+
+[TRACE] 2019-11-10 03:56:14.912 CurlHttpClient [140660407207680] x-amzn-requestid: 682885b3-23bc-4f16-a2cb-bf502a5ad9e6
+
+[TRACE] 2019-11-10 03:56:14.912 CurlHttpClient [140660407207680] x-amzn-errortype: InvalidSignatureException:http://internal.amazon.com/coral/com.amazon.coral.service/
+
+[TRACE] 2019-11-10 03:56:14.912 CurlHttpClient [140660407207680] date: Sun, 10 Nov 2019 03:56:14 GMT
+
+[TRACE] 2019-11-10 03:56:14.912 CurlHttpClient [140660407207680] content-type: application/x-amz-json-1.1
+
+[TRACE] 2019-11-10 03:56:14.912 CurlHttpClient [140660407207680] content-length: 1001
+
+[TRACE] 2019-11-10 03:56:14.912 CurlHttpClient [140660407207680] 
+
+[TRACE] 2019-11-10 03:56:14.912 CurlHttpClient [140660407207680] 1001 bytes written to response.
+[DEBUG] 2019-11-10 03:56:14.922 CurlHttpClient [140660407207680] Returned http response code 403
+[DEBUG] 2019-11-10 03:56:14.922 CurlHttpClient [140660407207680] Returned content type application/x-amz-json-1.1
+[TRACE] 2019-11-10 03:56:14.922 CurlHttpClient [140660407207680] Response content-length header: 1001
+[TRACE] 2019-11-10 03:56:14.922 CurlHttpClient [140660407207680] Response body length: 1001
+[DEBUG] 2019-11-10 03:56:14.922 CurlHttpClient [140660407207680] Releasing curl handle 0x7fee0000a420
+[DEBUG] 2019-11-10 03:56:14.922 CurlHandleContainer [140660407207680] Releasing curl handle 0x7fee0000a420
+[DEBUG] 2019-11-10 03:56:14.922 CurlHandleContainer [140660407207680] Notified waiting threads.
+[TRACE] 2019-11-10 03:56:14.922 StartStreamTranscriptionHandler [140660407207680] TranscribeStreamingService Errors received, HTTP response code: -1
+Exception name: EventStreamPreludeChecksumFailure
+Error message: CRC Mismatch. prelude_crc was 0x0865223A22, but computed 0x08A98FE9C5
+0 response headers:
+[DEBUG] 2019-11-10 03:56:14.922 AWSClient [140660407207680] Request returned error. Attempting to generate appropriate error codes from response
+[TRACE] 2019-11-10 03:56:14.922 AWSErrorMarshaller [140660407207680] Error response is {
+	"message":	"The request signature we calculated does not match the signature you provided. Check your AWS Secret Access Key and signing method. Consult the service documentation for details.\n\nThe Canonical String for this request should have been\n'POST\n/stream-transcription\n\ncontent-type:application/vnd.amazon.eventstream\nhost:transcribestreaming.us-east-1.amazonaws.com\nx-amz-api-version:2017-10-26\nx-amz-content-sha256:STREAMING-AWS4-HMAC-SHA256-EVENTS\nx-amz-date:20191110T035614Z\nx-amzn-transcribe-language-code:en-US\nx-amzn-transcribe-media-encoding:pcm\nx-amzn-transcribe-sample-rate:16000\n\ncontent-type;host;x-amz-api-version;x-amz-content-sha256;x-amz-date;x-amzn-transcribe-language-code;x-amzn-transcribe-media-encoding;x-amzn-transcribe-sample-rate\nSTREAMING-AWS4-HMAC-SHA256-EVENTS'\n\nThe String-to-Sign should have been\n'AWS4-HMAC-SHA256\n20191110T035614Z\n20191110/us-east-1/transcribe/aws4_request\nd2b837099b6da1e91ac0dc23890b55106e3fc256a7fb6f95716b6a214ac09922'\n"
+}
+[WARN] 2019-11-10 03:56:14.922 AWSErrorMarshaller [140660407207680] Encountered AWSError 'InvalidSignatureException': The request signature we calculated does not match the signature you provided. Check your AWS Secret Access Key and signing method. Consult the service documentation for details.
+
+The Canonical String for this request should have been
+'POST
+/stream-transcription
+
+content-type:application/vnd.amazon.eventstream
+host:transcribestreaming.us-east-1.amazonaws.com
+x-amz-api-version:2017-10-26
+x-amz-content-sha256:STREAMING-AWS4-HMAC-SHA256-EVENTS
+x-amz-date:20191110T035614Z
+x-amzn-transcribe-language-code:en-US
+x-amzn-transcribe-media-encoding:pcm
+x-amzn-transcribe-sample-rate:16000
+
+content-type;host;x-amz-api-version;x-amz-content-sha256;x-amz-date;x-amzn-transcribe-language-code;x-amzn-transcribe-media-encoding;x-amzn-transcribe-sample-rate
+STREAMING-AWS4-HMAC-SHA256-EVENTS'
+
+The String-to-Sign should have been
+'AWS4-HMAC-SHA256
+20191110T035614Z
+20191110/us-east-1/transcribe/aws4_request
+d2b837099b6da1e91ac0dc23890b55106e3fc256a7fb6f95716b6a214ac09922'
+
+[ERROR] 2019-11-10 03:56:14.922 AWSClient [140660407207680] HTTP response code: 403
+Exception name: InvalidSignatureException
+Error message: The request signature we calculated does not match the signature you provided. Check your AWS Secret Access Key and signing method. Consult the service documentation for details.
+
+The Canonical String for this request should have been
+'POST
+/stream-transcription
+
+content-type:application/vnd.amazon.eventstream
+host:transcribestreaming.us-east-1.amazonaws.com
+x-amz-api-version:2017-10-26
+x-amz-content-sha256:STREAMING-AWS4-HMAC-SHA256-EVENTS
+x-amz-date:20191110T035614Z
+x-amzn-transcribe-language-code:en-US
+x-amzn-transcribe-media-encoding:pcm
+x-amzn-transcribe-sample-rate:16000
+
+content-type;host;x-amz-api-version;x-amz-content-sha256;x-amz-date;x-amzn-transcribe-language-code;x-amzn-transcribe-media-encoding;x-amzn-transcribe-sample-rate
+STREAMING-AWS4-HMAC-SHA256-EVENTS'
+
+The String-to-Sign should have been
+'AWS4-HMAC-SHA256
+20191110T035614Z
+20191110/us-east-1/transcribe/aws4_request
+d2b837099b6da1e91ac0dc23890b55106e3fc256a7fb6f95716b6a214ac09922'
+
+5 response headers:
+content-length : 1001
+content-type : application/x-amz-json-1.1
+date : Sun, 10 Nov 2019 03:56:14 GMT
+x-amzn-errortype : InvalidSignatureException:http://internal.amazon.com/coral/com.amazon.coral.service/
+x-amzn-requestid : 682885b3-23bc-4f16-a2cb-bf502a5ad9e6
+[WARN] 2019-11-10 03:56:14.922 AWSClient [140660407207680] If the signature check failed. This could be because of a time skew. Attempting to adjust the signer.
+[DEBUG] 2019-11-10 03:56:14.922 AWSClient [140660407207680] Server time is Sun, 10 Nov 2019 03:56:14 GMT, while client time is Sun, 10 Nov 2019 03:56:14 GMT
+[INFO] 2019-11-10 03:56:14.923 CurlHandleContainer [140660453422912] Cleaning up CurlHandleContainer.
+[INFO] 2019-11-10 03:56:14.923 CurlHandleContainer [140660453422912] Cleaning up CurlHandleContainer.
+[DEBUG] 2019-11-10 03:56:14.923 CurlHandleContainer [140660453422912] Cleaning up 0x7fee00004ca0
+[DEBUG] 2019-11-10 03:56:14.923 CurlHandleContainer [140660453422912] Cleaning up 0x7fee0000a420
