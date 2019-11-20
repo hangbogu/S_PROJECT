@@ -1,0 +1,43 @@
+Performing C++ SOURCE FILE Test CMAKE_HAVE_LIBC_PTHREAD failed with the following output:
+Change Dir: /home/hangbo/SENIOR_PROJECT/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_c89f6/fast && /usr/bin/make -f CMakeFiles/cmTC_c89f6.dir/build.make CMakeFiles/cmTC_c89f6.dir/build
+make[1]: Entering directory '/home/hangbo/SENIOR_PROJECT/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_c89f6.dir/src.cxx.o
+/usr/bin/c++    -DCMAKE_HAVE_LIBC_PTHREAD   -std=gnu++11 -o CMakeFiles/cmTC_c89f6.dir/src.cxx.o -c /home/hangbo/SENIOR_PROJECT/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_c89f6
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c89f6.dir/link.txt --verbose=1
+/usr/bin/c++   -DCMAKE_HAVE_LIBC_PTHREAD    CMakeFiles/cmTC_c89f6.dir/src.cxx.o  -o cmTC_c89f6 
+CMakeFiles/cmTC_c89f6.dir/src.cxx.o: In function `main':
+src.cxx:(.text+0x3c): undefined reference to `pthread_create'
+src.cxx:(.text+0x48): undefined reference to `pthread_detach'
+src.cxx:(.text+0x59): undefined reference to `pthread_join'
+src.cxx:(.text+0x6d): undefined reference to `pthread_atfork'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_c89f6.dir/build.make:86: recipe for target 'cmTC_c89f6' failed
+make[1]: *** [cmTC_c89f6] Error 1
+make[1]: Leaving directory '/home/hangbo/SENIOR_PROJECT/build/CMakeFiles/CMakeTmp'
+Makefile:121: recipe for target 'cmTC_c89f6/fast' failed
+make: *** [cmTC_c89f6/fast] Error 2
+
+
+Source file was:
+#include <pthread.h>
+
+void* test_func(void* data)
+{
+  return data;
+}
+
+int main(void)
+{
+  pthread_t thread;
+  pthread_create(&thread, NULL, test_func, NULL);
+  pthread_detach(thread);
+  pthread_join(thread, NULL);
+  pthread_atfork(NULL, NULL, NULL);
+  pthread_exit(NULL);
+
+  return 0;
+}
+
