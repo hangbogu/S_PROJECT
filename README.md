@@ -7,7 +7,7 @@ CMake 3.11 or higher
 GCC 5.0 or higher  
 Git   
 libcurl configured to support HTTP/2 (libcurl does not support HTTP/2 by default. follow these instructions https://serversforhackers.com/c/curl-with-http2-support)  
-AWS CLI configured correctly  
+AWS CLI configured correctly with an AWS account  
 
 The below can be in different directories. 
 
