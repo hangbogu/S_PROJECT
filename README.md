@@ -96,9 +96,13 @@ Once the instance is set up, follow the instructions below for testing.
 #### Pytorch-Kaldi
 The following will be done in the AWS Instance.
 
-First, install Kaldi with the directions found here. (https://github.com/kaldi-asr/kaldi)
-Next, install PyTorch with the directions found here. (https://pytorch.org)
-Then, install PyTorch-Kaldi with the directions found here. (https://github.com/mravanelli/pytorch-kaldi)
+First, install Kaldi with the directions found here. [Kaldi](https://github.com/kaldi-asr/kaldi)
+Next, install PyTorch with the directions found here. [PyTorch](https://pytorch.org)
+Then, install PyTorch-Kaldi with the directions found here. [PyTorch-Kaldi](https://github.com/mravanelli/pytorch-kaldi)
+
+After this, the instance should be set with the default training model.
+
+Last, we will need training data. Any data set with around 1000 hours of English data is sufficient. The one used for this project can be found here. [LibriSpeech](www.openslr.org/12)
 
 ### Installing
 To run the project, navigate to the directory the project folder is in.
@@ -133,7 +137,7 @@ Back end tests can be found in SENIOR_PROJECT folder and pytorch_kaldi once bina
 
 * [Kaldi](https://kaldi-asr.org) - Speech recognition toolkit to handle FST
 * [PyTorch](https://pytorch.org) - Open source machine learning framework
-* [PyTorch-Kaldi](https://github.com)/mravanelli/pytorch-kaldi) - DNN/RNN hybrid speech recognition system.
+* [PyTorch-Kaldi](https://github.com/mravanelli/pytorch-kaldi) - DNN/RNN hybrid speech recognition system.
 
 ## Authors
 * **Arturo Reyes** - *Front-end and UI/UX, audio.py, and senior_proj_app.py* 
