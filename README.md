@@ -3,15 +3,6 @@
 ## For Linux
 
 ### Prerequisites
-<<<<<<< HEAD
-CMake 3.11 or higher  
-GCC 5.0 or higher  
-Git   
-libcurl configured to support HTTP/2 (libcurl does not support HTTP/2 by default. follow these instructions https://serversforhackers.com/c/curl-with-http2-support)  
-AWS CLI configured correctly with an AWS account  
-
-The below can be in different directories. 
-=======
 Git   
 CMake 3.11 or higher  
 GCC 5.0 or higher  
@@ -32,7 +23,6 @@ $ cd curl-7.63.0
 $ ./configure --with-nghttp2 --prefix=/usr/local --with-ssl   
 $ make && sudo make install   
 $ sudo ldconfig   
->>>>>>> 12472e5d60b85f8b35bf853964cb414a12848a4f
 
 #### PortAudio
 
@@ -64,3 +54,4 @@ $ cd build
 $ cmake .. -DCMAKE_BUILD_TYPE=Release  
 $ cmake --build . --config Release  
 
+...
