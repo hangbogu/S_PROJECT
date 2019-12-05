@@ -150,6 +150,7 @@ Back end tests can be found in SENIOR_PROJECT folder and pytorch_kaldi once bina
 * SpeechRecognition Tutorial for audio module from (https://pypi.org/project/SpeechRecognition/)
 * Dan Povey from (https://danielpovey.com)
 * README template from [here](https://gist.github.com/PurpleBooth/109311bb0361f32d87a2#project-title)
+
 @inproceedings{pytorch-kaldi,
 title    = {The PyTorch-Kaldi Speech Recognition Toolkit},
 author    = {M. Ravanelli and T. Parcollet and Y. Bengio},
