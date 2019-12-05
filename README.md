@@ -63,8 +63,4 @@ $ mkdir build
 $ cd build  
 $ cmake .. -DCMAKE_BUILD_TYPE=Release  
 $ cmake --build . --config Release  
-<<<<<<< HEAD
-=======
 
-...
->>>>>>> 12472e5d60b85f8b35bf853964cb414a12848a4f
